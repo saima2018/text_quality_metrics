@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+    <property>
+        <name>Database</name>
+        <value>{"db":{"host":"192.168.3.3", "port":13306, "user":"root", "password":"bat100", "database":"ai-creative"}}</value>
+        <!--value>{"db":{"host":"120.27.26.186", "port":3306, "user":"dev", "password":"admin", "database":"ai-creative"},}</value-->
+        <!--value>{"db":{"host":"47.104.173.112", "port":3306, "user":"aitest", "password":">_lmKT_WRdO1+aHS", "database":"ai-creative"},
+            }</value-->
+        <!--value>{"db":{"host":"192.168.3.128", "port":13306, "user":"root", "password":"@bat100.net", "database":"ai-creative"},
+            }</value-->
+    </property>
+
+    <!-- 各类别标题词汇 -->
+    <property>
+        <name>categories</name>
+        <value>{'鼻':['鼻'], '肤':['肤','美白','水光针','玻尿酸'],'胸':['胸','乳','乳晕'],'发':['头发','美发','植发','织发','脱发','发量'],
+                        '腿':['腿'],'眉':['眉'],'睫':['睫'],'眼':['眼','睑'],'脸':['苹果肌','瘦脸','瓜子脸'],'痘':['脸','痘','微针'],
+                        '阴':['阴蒂','阴'],'脂':['肚','腩','脂','减肥'],'毛孔':['毛孔'],'斑':['斑','疤'], '下巴':['下巴'],'臀':['臀','屁股'],
+                        '太阳穴':['太阳穴'],'纹':['皱','纹'],'牙':['牙','齿','烤瓷'],'臂':['臂','胳膊'],'额':['额'],'脱毛':['脱毛'],
+                        '唇':['唇'],'妊娠':['妊娠']}</value>
+    </property>
+
+    <property>
+        <name>备用</name>
+        <value>{'a':1}</value>
+    </property>
+
+</configuration>
